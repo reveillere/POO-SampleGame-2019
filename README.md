@@ -30,9 +30,9 @@ La gestion du temps se fait dans la class `Main.java` avec le code suivant:
 ```java
 gameLoop = new AnimationTimer() {
   @Override
-      public void handle(long now) {
-          // boucle du jeu 
-      }
+  public void handle(long now) {
+      // boucle du jeu 
+  }
 }
 gameLoop.start();
 ```
