@@ -20,13 +20,13 @@ Pour mieux comprendre le fonctionnement du jeu, nous vous demandons d'apporter l
 
 Modifier le comportement du jeu pour créer une pause active lors d'un appui sur une touche spécifique. Dans cet état, le temps est figé mais il est toujours possible d'interagir avec le jeu (accès au menu contextuel du joueur par exemple).
 
-La gestion du temps se fait dans la class `Main.java` avec le code suivant :
+La gestion du temps se fait dans la class `Main.java` avec le code suivant:
 
 ```java
 gameLoop = new AnimationTimer() {
   @Override
-			public void handle(long now) {
-          // bboucle du jeu 
+      public void handle(long now) {
+          // boucle du jeu 
       }
 }
 gameLoop.start();
@@ -34,5 +34,5 @@ gameLoop.start();
 
 ## Super ennemi
 
-Faites en sorte que chaque ennemi ait un nombre de vies allant de 1 pour le plus petit à 5 pour le plus gros. Modifiez le programme pour titrer aléatoirement un type d'ennemi et ajuster à la fois sa taille et son nombbre de vies.
+Faites en sorte que chaque ennemi ait un nombre de vies allant de 1 pour le plus petit à 5 pour le plus gros. Modifiez le programme pour titrer aléatoirement un type d'ennemi et ajuster à la fois sa taille et son nombbre de vies. Il faut regarder la classe `Sprite.java` et `Enemy.java`
 
