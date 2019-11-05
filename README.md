@@ -1,13 +1,13 @@
 # Description du jeu
 
-Dans ce mini jeu vidéo, l'objectif est de tuer un maximum d'énemis. Les modes d'interactions sont les suivants :
+Dans ce mini jeu vidéo, l'objectif est de tuer un maximum d'ennemis. Les modes d'interactions sont les suivants :
 
 - Touches de directions (gauche, droit, haut, bas)
 - Touche espace pour tirer des annanas
 - Clic gauche de la souris pour positionner le vaisseau à un endroit spécifique
 - Clic droit de la souris pour faire apparaitre un menu contextuel (changement de vitesse des tirs)
 
-Chaque énemi détruit rapporte des points (en fonction de la position du vaisseau). Le joueur possède initialement 3 vies et perd une vie à chaque fois qu'un enemi le touche. 
+Chaque ennemi détruit rapporte des points (en fonction de la position du vaisseau). Le joueur possède initialement 3 vies et perd une vie à chaque fois qu'un ennemi le touche. 
 
 ![screenshot](screenshot.png)
 
