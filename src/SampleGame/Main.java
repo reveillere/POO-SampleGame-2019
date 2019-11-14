@@ -163,10 +163,14 @@ public class Main extends Application {
 		if (random && rnd.nextInt(Settings.ENEMY_SPAWN_RANDOMNESS) != 0) {
 			return;
 		}
+		
 		double speed = rnd.nextDouble() * 3 + 1.0;
 		double x = rnd.nextDouble() * (Settings.SCENE_WIDTH - enemyImage.getWidth());
-		double y = -enemyImage.getHeight();
-		Enemy enemy = new Enemy(playfieldLayer, enemyImage, x, y, 1, 1, speed);
+		double y = -enemyImage.getHeight()*2;
+		int health = rnd.nextInt(6);
+		enemyImage = new Image(getClass().getResource("/images/enemy.png").toExternalForm(), 50*health, 50*health, true, true);
+		Enemy enemy = new Enemy(playfieldLayer, enemyImage, x, y, health, 1, speed);
+		
 		enemies.add(enemy);
 	}
 
